@@ -329,3 +329,25 @@ credit-default-prediction/
 │
 ├── README.md
 └── requirements.txt
+
+## How to Run the Project
+
+1. Clone this repository to your computer.
+
+2. Install the required Python packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Download the **Default of Credit Card Clients** dataset from the UCI Machine Learning Repository.
+
+4. Place the downloaded `.xls` dataset inside the local `data` folder.
+
+5. Open the Jupyter Notebook:
+
+```text
+notebooks/credit_default_prediction.ipynb
+```
+
+6. Run the notebook cells from top to bottom.
